@@ -1,0 +1,221 @@
+/* html{
+    display: flex;
+    width: auto;
+} */
+
+@font-face {
+    font-family: Quiche;
+    src: url(Fontes/FontsFree-Net-bb4.ttf);
+}
+
+@font-face {
+    font-family: Agrandir;
+    src: url(Fontes/Agrandir-Regular.otf);
+}
+
+/* --- body --- */
+
+body{
+    width: auto;
+}
+
+body{
+    background-image: url(Imagens/Contato.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+/* --- main --- */
+
+main{
+    height: 863px;
+}
+
+.conteudo{
+    height: 100%;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+    width: 325px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contato-foto{
+    width: 80%;
+    align-self: center;
+    margin-bottom: 25px;
+}
+
+.contato, form, .dados{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.dados{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.dados label{
+    font-size: 22px;
+}
+
+.dados label, .periodo legend{
+    color: #DDA6B9;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5px;
+}
+
+form{
+    width: 100%;
+}
+
+.inputPadrao{
+    outline: #686c99;
+    padding: 10px 2px;
+    width: 100%;
+    height: 30px;
+    align-self: center;
+    background-color: #EEEFFD;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #686c99;
+    border-color: #EEEFFD;
+}
+
+.inputPadrao:invalid{
+    outline: red;
+}
+
+.inputPadrao:valid{
+    outline: #ACA18C;
+}
+
+select{
+    height: 22px;
+    margin-top: 5px;
+    background-color: #EEEFFD;
+    border-radius: 5px;
+    border-color: #EEEFFD;
+}
+
+option{
+    font-family:'Open Sans', sans-serif;
+    color: #686c99;
+}
+
+.formulario{
+    align-self: center;
+    margin-top: 20px;
+    width: 174px;
+    padding: 15px 0;
+    background-color: #FFE5E0;
+    color: #F18D7E;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s background;
+    cursor: pointer;
+    font-family: Agrandir;
+    font-size: 21px;
+}
+
+.formulario:hover{
+    transition: 0.5s all;
+    transform: scale(1.2);
+    background-color: #F18D7E;
+    color: #FFE5E0;
+}
+
+.periodo{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+
+.periodo legend{
+    font-size: 16px;
+}
+
+.casal{
+    align-self: center;
+    width: 490px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+/* --- mobile --- */
+
+@media screen and (max-width:768px) {
+
+    main{
+        display: flexbox;
+        flex-direction: column;
+    }
+
+    body{
+        display: flexbox;
+        flex-direction: column;
+        background-image: url(Imagens/CttMobile.png);
+    }
+
+    .conteudo{
+        display: flexbox;
+        flex-direction: column;
+    }
+
+    .cabecalho{
+        display: flexbox;
+        position: static;
+        text-align: center;
+    }
+
+    .menu1{
+        display: flexbox;
+        flex-direction: column;
+    }
+
+    .cabecalhoContainer{
+        display: flexbox;
+        justify-content: center;
+    }
+
+    /* /* .siteTexto{
+        display: flexbox;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } */
+
+    .menu{
+        display: flexbox;
+    }
+
+    .menu a{
+        text-align: center;
+    }
+
+    .logo img{
+        margin-left: 5px;
+        height: auto;
+    }
+
+    /* footer{
+        display: flexbox;
+        width: 720px;
+        position: static;
+    } */
+}

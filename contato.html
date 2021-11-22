@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Personagens LGBTQIA+ nos Jogos</title>
+    <link rel="stylesheet" href="Estilizações/reset.css" />
+    <link rel="stylesheet" href="contato.css" />
+    <link rel="stylesheet" href="Estilizações/geral.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="contato.js"></script>
+    <link rel="icon" type="imagem/png" href="Imagens/Logo Site.png" />
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <section class="cabecalhoContainer">
+            <div>
+                <a class="logo" href="home.html">
+                    <img src="Imagens/logo.png" />
+                </a>
+            </div>
+            <div class="menu1">
+                <div>
+                    <h1 class="titulo">
+                        Personagens LGBTs Nos Jogos
+                    </h1>
+                </div>
+                <div>
+                    <nav class="menu">
+                        <a href="home.html"> Home </a>
+                        <a href="personagens.html"> Personagens </a>
+                        <a href="quemSomos.html"> Sobre Nós </a>
+                        <a href="contato.html"> Contato </a>
+                    </nav>
+                </div>
+            </div>
+
+            <div>
+                <a class="logo" href="home.html">
+                    <img src="Imagens/logo.png" />
+                </a>
+            </div>
+            <div class="menu1">
+                <div>
+                    <h1 class="titulo">
+                        Personagens LGBTs Nos Jogos
+                    </h1>
+                </div>
+                <div>
+                    <nav class="menu">
+                        <a href="home.html"> Home </a>
+                        <a href="personagens.html"> Personagens </a>
+                        <a href="quemSomos.html"> Sobre Nós </a>
+                        <a href="contato.html"> Contato </a>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- <div class="siteTexto">
+                <div class="linkLogo">
+                    <a class="logo" href="home.html">
+                        <img src="Imagens/logo.png" />
+                    </a>
+                </div>
+                <h1 class="titulo">
+                    Personagens LGBTs Nos Jogos
+                    aaa
+                </h1>
+            </div> -->
+            <!-- <a class="logo" href="home.html">
+                <img src="Imagens/logo.png" />
+            </a>
+            
+            <h1 class="titulo">
+                Personagens LGBTs Nos Jogos
+            </h1>
+
+            <nav class="menu">
+                <a href="home.html"> Home </a>
+                <a href="personagens.html"> Personagens </a>
+                <a href="quemSomos.html"> Sobre Nós </a>
+                <a href="contato.html"> Contato </a>
+            </nav> -->
+        </section>
+    </header>
+
+    <main>
+        <div class="conteudo">
+            <div class="contato">
+                <img class="contato-foto" src="Imagens/Contato Texto.png" />
+
+                <form id="formContato" action="receberDados.js" method="POST" onsubmit="return validarCampos()">
+
+                    <div class="divMensagem"><span id="msgErro"></span></div>
+
+                    <div class="dados">
+                        <label for="nomeSobrenome"> Nome e sobrenome </label><br />
+                        <input class="inputPadrao" type="text" id="nomeSobrenome" name="nomeSobrenome" required
+                            maxlength="30"
+                            oninvalid="this.setCustomValidity('Opa! Parece que você esqueceu de algo.')"><br />
+
+                        <label for="email"> Email </label><br />
+                        <input class="inputPadrao" type="email" id="email" name="email" required
+                            oninvalid="this.setCustomValidity('Opa! Parece que você esqueceu de algo.')"><br />
+                    </div>
+
+                    <fieldset class="periodo">
+                        <legend> Em qual período prefere receber nossas novidades? </legend>
+                        <select id="periodo">
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </fieldset>
+
+                    <input class="formulario" type="submit" value="ENVIAR">
+                </form>
+            </div>
+
+            <img class="casal" src="Imagens/casal.png" />
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="creditos">
+            <a href="https://www.ifms.edu.br/" target="_blank">
+                <img class="ifLogo" src="Imagens/IF Logo.png" />
+            </a>
+            <p>&copy; Felipe MO – 2021</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

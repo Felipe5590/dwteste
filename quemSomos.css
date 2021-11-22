@@ -1,0 +1,154 @@
+html{
+    display: flex;
+}
+
+@font-face {
+    font-family: Quiche;
+    src: url(Fontes/FontsFree-Net-bb4.ttf);
+}
+
+@font-face {
+    font-family: Agrandir;
+    src: url(Fontes/Agrandir-Regular.otf);
+}
+/* 
+body{
+    background-image:url(https://www.nawpic.com/media/2020/aesthetic-desktop-nawpic.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-attachment: fixed;
+} */
+
+/* body{
+    background-image: url(Imagens/Quem\ Somos.png);
+} */
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 165px;
+}
+
+main nav{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+    margin-right: 0;
+    margin-bottom: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    position: static;
+}
+
+.quemSomos{
+    height: 92px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.pessoas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.lista{
+    align-content: initial;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+}
+
+li:not(.birdo){
+    margin-top: 10px;
+}
+
+.lista li:hover:not(.birdo){
+    border-color: #FFE5E0;
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 10px;
+    padding: 10px 10px;
+    transition: 0.3s all;
+    transform: scale(1);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.lista h2{
+    font-size: 20px;
+    font-family: Agrandir;
+    font-weight: bold;
+    color: #ED727C;
+    padding: 7px 0;
+}
+
+.lista h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Agrandir;
+    color: #ED727C;
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+p{
+    font-size: 25px;
+    color: #e09077;
+    text-align: justify;
+}
+
+.item p{
+    font-size: 20px;
+    width: 297px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.item img{
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+.birdo{
+    align-self: initial;
+}
+
+.birdo img{
+    width: 300px;
+    margin: 25px 70px 0px 70px;
+}
+
+.sobre{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sobre p{
+    width: 900px;
+}
+
+.sobre a{
+    color: #ca515b;
+}
+
+/* footer{
+    margin-top: 450px;
+} */
