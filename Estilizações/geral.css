@@ -37,19 +37,22 @@ header{
 
 .titulo{
     margin-left: 15px;
+    margin-right: 10px;
     font-family: Quiche;
     font-size: 22px;
     color: #FFF1EF;
 }
 
-nav{
+.menu{
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
+    align-items: center;
 }
 
 .menu a{
     display: flex;
+    text-align: center;
     text-decoration: none;
     color: #EFA18A;
     background-color: #FFF1EF;

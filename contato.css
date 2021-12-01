@@ -17,12 +17,11 @@
 
 body{
     width: auto;
+}
+
+body{
     background-image: url(Imagens/Contato.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    overflow: auto;
-    background-size: cover;
 }
 
 /* --- main --- */
@@ -212,9 +211,9 @@ option{
         height: auto;
     }
 
-    /* footer{
+    footer{
         display: flexbox;
         width: 720px;
         position: static;
-    } */
+    }
 }

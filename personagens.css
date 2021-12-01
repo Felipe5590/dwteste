@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Un Pen;
+    src: url(Fontes/UnPen.ttf);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 165px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li img{
+    width: 224px;
+}
+
+.pers{
+    height: 92px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.header{
+    width: 100%;
+}
+
+.persNav{
+    width: 100%;
+    background-color: #FFF1EF;
+    display: flex;
+    justify-content: center;
+}
+
+.persLista{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+.lista{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 91.5%;
+}
+
+.lista li{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 15px 0 15px;
+}
+
+li a{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+h2{
+    color: #DDA6B9;
+    font-family: Un Pen;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+h3{
+    color: #ACAEC5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin-top: 5px;
+}
