@@ -1,23 +1,81 @@
-.cabecalho{
-    background-color: darkmagenta;
+@font-face {
+    font-family: Quiche;
+    src: url(Fontes/FontsFree-Net-bb4.ttf);
 }
 
-h1{
-    background-color: burlywood;
+@font-face {
+    font-family: Agrandir;
+    src: url(Fontes/Agrandir-Regular.otf);
 }
 
-body{
-    background-color: bisque;
+@font-face{
+    font-family: Un Pen;
+    src: url(Fontes/UnPen.ttf);
 }
 
-p{
-    font-size: 20;
+.header{
+    height: 469px;
+    display: flex;
+    flex-flow: line wrap;
+    background-image: url(Imagens/home\ header.png);
+    background-size: 100%;
+    background-position: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
 }
 
-h2{
-    text-align: center;
+.hTexto h1{
+    font-family: Un Pen;
+    font-size: 50px;
+    color: #FDDFD6;
+    margin-bottom: 25px;
 }
 
-h3{
-    text-align: center;
+.hTexto p{
+    color: #F7F8F3;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    width: 340px;
+}
+
+.neeko{
+    height: 469px;
+}
+
+.divNav{
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+
+.subMenu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.subMenu li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: #FFEFF0;
+    color: #ACAEC5;
+    font-weight: bold;
+    padding: 25px 40px;
+    border-radius: 15px;
+}
+
+.linha{
+    align-self: center;
+    justify-self: center;
+    width: 75%;
+}
+
+
+
+@media screen and (max-width:1292px) {
+    .header{
+        background-size: cover;
+    }
 }
