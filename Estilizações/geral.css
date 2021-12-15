@@ -76,7 +76,7 @@ footer{
     background-color: #F18D7E;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px 0;
     margin-bottom: 0;
     width: auto;
@@ -88,9 +88,9 @@ footer p{
     color: #FFF1EF;
 }
 
-footer a{
+/* footer a{
     margin-right: 570px;
-}
+} */
 
 .creditos{
     display: flex;
@@ -100,4 +100,14 @@ footer a{
 
 .ifLogo{ 
     width: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .creditos{
+        display: flexbox;
+    }
+
+    .creditos p{
+        text-align: center;
+    }
 }
