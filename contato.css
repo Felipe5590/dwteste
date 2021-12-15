@@ -22,6 +22,8 @@ body{
 body{
     background-image: url(Imagens/Contato.png);
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 /* --- main --- */
@@ -155,6 +157,14 @@ option{
     margin-top: 30px;
 }
 
+@media screen and (max-width:1282px){
+    body{
+        background-position: center;
+        background-size: 100%;
+        background-size: cover;
+    }
+}
+
 /* --- mobile --- */
 
 @media screen and (max-width:768px) {
@@ -168,11 +178,15 @@ option{
         display: flexbox;
         flex-direction: column;
         background-image: url(Imagens/CttMobile.png);
+        background-size: 100%;
+        background-size: cover;
+        background-position: center;
     }
 
     .conteudo{
         display: flexbox;
         flex-direction: column;
+        align-items: center;
     }
 
     .cabecalho{

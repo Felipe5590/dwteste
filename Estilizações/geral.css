@@ -74,11 +74,10 @@ header{
 
 footer{
     background-color: #F18D7E;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px 0;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     width: auto;
 }
 
@@ -95,7 +94,8 @@ footer p{
 .creditos{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 0 20px;
 }
 
 .ifLogo{ 
@@ -103,11 +103,5 @@ footer p{
 }
 
 @media screen and (max-width:768px) {
-    .creditos{
-        display: flexbox;
-    }
-
-    .creditos p{
-        text-align: center;
-    }
+    
 }
