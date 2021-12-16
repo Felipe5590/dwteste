@@ -22,7 +22,7 @@
     background-position: center;
     align-items: center;
     justify-content: space-around;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .hTexto h1{
@@ -35,9 +35,9 @@
 .hTexto p{
     color: #F7F8F3;
     font-family: 'Open Sans', sans-serif;
-    text-align: justify;
     font-size: 14px;
-    width: 340px;
+    width: 70%;
+    /* justify-self: center; */
 }
 
 .neeko{
@@ -46,33 +46,82 @@
 
 .divNav{
     align-items: center;
-    justify-content: space-around;
     margin: 60px 0;
+}
+
+.subMenu{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
 }
 
 .subMenu ul{
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 .subMenu li{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    /* font-size: 15px; */
     background-color: #FFEFF0;
     color: #ACAEC5;
     font-weight: bold;
     padding: 25px 40px;
-    border-radius: 15px;
+}
+
+.subMenu li:hover{
+    background-color: #EDCFD9;
+    border-style:none;
+    transition: 0.5s all;
+    transform: scale(1);
+}
+
+
+.subMenu li:not(:last-child) {
+    border-right-style:solid;
+    border-right-color: #EDCFD9;
+    border-right-width: 2px;
+}
+
+.subMenu li:first-child{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.subMenu li:last-child{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .linha{
-    align-self: center;
-    justify-self: center;
-    width: 75%;
+    width: 90%;
+    height: 2px;
+    background-color: #FDDFD6;
+    margin: 0 auto 60px auto;
 }
 
+.divTop h1{
+    font-size: 50px;
+    color: #ACAEC5;
+    font-family: Un Pen;
+    font-weight: bold;
+    margin: 0 0 50px 5%;
+}
 
+p{
+    text-align: justify;
+}
+
+.divTop p{
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    margin: auto;
+    color: #DDA6B9;
+}
+
+.divTop{
+    margin-bottom: 80px;
+}
 
 @media screen and (max-width:1292px) {
     .header{
