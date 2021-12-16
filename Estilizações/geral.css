@@ -8,6 +8,11 @@
     src: url(Fontes/Agrandir-Regular.otf);
 }
 
+@font-face{
+    font-family: Un Pen;
+    src: url(Fontes/UnPen.ttf);
+}
+
 
 /* ----- header ----- */
 

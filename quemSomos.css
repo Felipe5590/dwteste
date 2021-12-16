@@ -1,14 +1,4 @@
 
-
-@font-face {
-    font-family: Quiche;
-    src: url(Fontes/FontsFree-Net-bb4.ttf);
-}
-
-@font-face {
-    font-family: Agrandir;
-    src: url(Fontes/Agrandir-Regular.otf);
-}
 /* 
 body{
     background-image:url(https://www.nawpic.com/media/2020/aesthetic-desktop-nawpic.png);
@@ -35,7 +25,7 @@ main nav{
     align-content: center;
     justify-content: space-around;
     margin-right: 0;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 a{
@@ -142,6 +132,13 @@ p{
 
 .sobre a{
     color: #ca515b;
+}
+
+.linha{
+    width: 70%;
+    height: 2px;
+    background-color: #FDDFD6;
+    margin: 0 auto 120px auto;
 }
 
 /* footer{

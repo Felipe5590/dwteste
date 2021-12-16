@@ -1,13 +1,12 @@
-@font-face {
-    font-family: Un Pen;
-    src: url(Fontes/UnPen.ttf);
-}
-
 main{
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    background-image: url(Imagens/pers\ wpp.png);
+    background-size: 100%;
+    background-position: initial;
+    background-repeat: no-repeat;
 }
 
 a{
@@ -20,8 +19,7 @@ li img{
 
 .pers{
     height: 92px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin: 180px 0 150px  0;
 }
 
 .header{
@@ -30,7 +28,7 @@ li img{
 
 .persNav{
     width: 100%;
-    background-color: #FFF1EF;
+    /* background-color: #FFF1EF; */
     display: flex;
     justify-content: center;
 }
@@ -39,7 +37,7 @@ li img{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 50px;
     flex-wrap: wrap;
 }
 
@@ -63,7 +61,7 @@ li img{
 .lista li:hover{
     /* border-color: #DDA6B9; */
     /* border-color: #EDD2D2; */
-    background-color: #EDD2D2;
+    background-color: #FDDFD6;
     border-width: 3px;
     border-style:none;
     border-radius: 15px;
@@ -82,6 +80,10 @@ li a{
     flex-flow: column wrap;
 }
 
+.lista a img{
+    border-radius: 200px;
+}
+
 h2{
     color: #DDA6B9;
     font-family: Un Pen;
@@ -94,6 +96,13 @@ h3{
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     margin-top: 5px;
+}
+
+.linha{
+    width: 90%;
+    height: 2px;
+    background-color: #FDDFD6;
+    margin: 0 auto 60px auto;
 }
 
 @media screen and (max-width:768px) {
