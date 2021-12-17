@@ -7,7 +7,7 @@ h1{
 }
 
 body{
-    background-image: url(../../Imagens/466199-Hanamura_Overwatch-Overwatch.jpg);
+    background-image: url(../../Imagens/waterfall-undertale-wallpaper-preview.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,9 +67,12 @@ h2:not(.personagem h2){
 }
 
 p:not(.creditos p){
-    text-align: justify;
     font-family: 'Open Sans', sans-serif;
     color: #5D5D79;
+}
+
+p:not(.infoList){
+    text-align: justify;
 }
 
 .sobre p{
@@ -101,7 +104,7 @@ p:not(.creditos p){
     border-radius: 16px;
     border-style: solid;
     border-width: 2px;
-    border-color: #E19225;
+    border-color: #457FAF;
 }
 
 .personagem:nth-child(n+1){
@@ -119,8 +122,8 @@ p:not(.creditos p){
     font-family: 'Amaranth', sans-serif;
     font-weight:bold;
     padding: 20px 0;
-    background-color: #E19225;
-    color: #E9D6D6;
+    background-color: #457FAF;
+    color: #C04038;
     width:100%;
     text-align: center;
     border-top-left-radius: 10px;
@@ -148,7 +151,7 @@ h3{
 }
 
 .infoList li:not(:last-child){
-    border-bottom-color: #E19225;
+    border-bottom-color: #457FAF;
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
